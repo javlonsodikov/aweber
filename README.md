@@ -1,5 +1,5 @@
 AWeber email importer
-author: Javlon Sodikov
+==================
 
 Important note fom API: 
 https://labs.aweber.com/docs/faq
@@ -17,19 +17,19 @@ chmod 0777 imported
 
 2. Configure config.php
 
-//List in awber website. Subscribers will be imported in this list
+List in awber website. Subscribers will be imported in this list
 ```
 $listname="List Group";
 ```
-//Your Awber username
+Your Awber username
 ```
 $username = "";
 ```
-//Your Awber password
+Your Awber password
 ```
 $password = "";
 ```
-//If you will set it true more verbose data will be printed to your screen
+If you will set it true more verbose data will be printed to your screen
 $debug = true or false; 
 
 3. Put your *.csv files to "csv" folder. After importing they will be moved to "imported" folder
